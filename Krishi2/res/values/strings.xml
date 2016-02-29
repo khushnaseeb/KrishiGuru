@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Krishi2</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hello">KrishiGuru Latest Updates</string>
+    <string name="menu_settings">Settings</string>
+    <string name="About">About</string>
+    <string name="title_activity_about">About</string>
+    <string name="Welcome">welcome sound</string>
+    <string name="Weather">Weather</string>
+    <string name="title_activity_weather">Weather Forecast</string>
+    <string name="Finance">Finance &amp; Sales</string>
+    <string name="Tech">Technology</string>
+    <string name="Jansabha">Community Page</string>
+    <string name="Utilities">Utility</string>
+    <string name="title_activity_finance">Finance</string>
+    <string name="title_activity_utility">Utility</string>
+    <string name="title_activity_tech">Tech</string>
+    <string name="title_activity_jansabha">Jansabha</string>
+    <string name="organic">Organic Farming</string>
+    <string name="title_activity_organic">Organic</string>
+    <string name="video">Intro to Organic Farming</string>
+    <string name="title_activity_intro_video">IntroVideo</string>
+    <string name="PlayVid">Tap on screen to play video</string>
+    <string name="Sound_organic">Sound_organic</string>
+    <string name="Certification">Organic Certification Agencies</string>
+    <string name="method_organic">Tutorial on Organic Farming</string>
+    <string name="benefits_organic">Benefits of Organic Farming</string>
+    <string name="DailyForecast">Daily Forecast</string>
+    <string name="WeeklyRainfallForecast">Weekly Rainfall Forecast</string>
+    <string name="title_activity_weekly_forecast">WeeklyForecast</string>
+    <string name="Sound_weather">Sound_weather</string>
+    <string name="state_prompt">Choose your state</string>
+    <string name="Submit">Submit</string>
+
+    <string-array name="state_arrays">
+        <item>Andhra Pradesh</item>
+        <item>Arunachal Pradesh</item>
+        <item>Assam</item>
+        <item>Bihar</item>
+        <item>Chattisgarh</item>
+        <item>Delhi</item>
+        <item>Gujrat</item>
+        <item>Haryana</item>
+        <item>Himachal Pradesh</item>
+        <item>Jammu and Kashmir</item>
+        <item>Jharkhand</item>
+        <item>Karnataka</item>
+        <item>Kerala</item>
+        <item>Madhya Pradesh</item>
+        <item>Maharashtra</item>
+        <item>Manipur</item>
+        <item>Meghalaya</item>
+        <item>Mizoram</item>
+        <item>Nagaland</item>
+        <item>Orissa</item>
+        <item>Punjab</item>
+        <item>Rajasthan</item>
+        <item>Sikkim</item>
+        <item>Tamil Nadu</item>
+        <item>Tripura</item>
+        <item>Uttrakhand</item>
+        <item>Uttar Pradesh</item>
+        <item>West Bengal</item>
+    </string-array>
+
+    <string name="rainfall">Statewise Rainfall Forecast</string>
+    <string name="bank">Various Banks and policies</string>
+    <string name="govt">Various Government policies</string>
+    <string name="retail">Contacts of Local Retail Outlets</string>
+    <string name="msp">Minimum Support Prices</string>
+    <string name="ngo">Local NGOs</string>
+    <string name="chem">Chemical Utility</string>
+    <string name="allowed">Allowed Pesticides</string>
+    <string name="banned">Banned Chemicals</string>
+    <string name="tips">Recommendations and Tips</string>
+    <string name="mix">Mixing Proportions</string>
+    <string name="title_activity_tips">Tips</string>
+    <string name="title_activity_mix">Mix</string>
+    <string name="title_activity_banned">Banned</string>
+    <string name="title_activity_approved">Approved</string>
+    <string name="title_activity_dbbank">DBBank</string>
+    <string name="title_activity_dbmsp">DBMsp</string>
+    <string name="choose_city">Choose your City</string>
+
+    <string-array name="list_banks">
+        <item>Allahabad Bank</item>
+        <item>Oriental Bank of Commerce</item>
+        <item>Punjab National Bank</item>
+        <item>Bank of India</item>
+        <item>State Bank of Hyderabad</item>
+    </string-array>
+    <string-array name="list_msp">
+        <item>PADDY</item>
+        <item>JOWAR</item>
+        <item>BAJRA</item>
+        <item>MAIZE</item>
+        <item>RAGI</item>
+        <item>ARHAR(Tur)</item>
+        <item>MOONG</item>
+        <item>URAD</item>
+        <item>COTTON</item>
+        <item>GROUNDNUT IN SHELL</item>
+        <item>SUNFLOWER SEED</item>
+        <item>SOYABEEN</item>
+        <item>SESAMUM</item>
+        <item>NIGERSEEDH</item>
+        <item>COPRA</item>
+        <item>JUTE</item>
+        <item>SUGARCANE</item>
+        <item>COCONUT</item>
+        <item>WHEAT</item>
+        <item>BARLEY</item>
+        <item>GRAM</item>
+        <item>MASUR (LENTIL)</item>
+        <item>RAPESEED/MUSTARD</item>
+        <item>SAFFLOWER</item>
+        <item>TORIA</item>
+    </string-array>
+    <string-array name="list_retail">
+        <item>Pune</item>
+        <item>Mumbai</item>
+        <item>New Delhi</item>
+    </string-array>
+    <string-array name="list_ngo">
+        <item>Agriculture And Development Soceity</item>
+        <item>Acani</item>
+        <item>Earth Care With Agriculture And Resource Enhancement Service</item>
+        <item>Gandhi Kisan Bharat Grameena Trust</item>
+        <item>Weaker Sections Development Society</item>
+    </string-array>
+    <string-array name="list_gov">
+        <item>Swaranjayanti Gram Swarozgar Yojana (SGSY)</item>
+        <item>Seed Village Scheme</item>
+        <item>Coconut Palm and Yield Insance</item>
+        <item>Wheat Insurance Policy</item>
+        <item>Bio-Fuel Tree/Plant Insurance</item>
+        <item>Sookha Suraksha Kavach-(SSK)</item>
+        <item>Potato Crop Insurance</item>
+        <item>Rabi Weather Insurance</item>
+        <item>National Project on Organic Farming (NPOF)</item>
+    </string-array>
+    <string-array name="list_agency">
+        <item>BVQI (India) Pvt. Ltd.</item>
+        <item>Indian Organic Certification Agency (INDOCERT)</item>
+        <item>International Resources for Fairer Trade</item>
+        <item>Lacon Quality Certification Pvt. Ltd</item>
+        <item>Natural Organic Certification Association</item>
+        <item>OneCert Asia Agri Certification Private Limited</item>
+        <item>SGS India Pvt. Ltd.</item>
+        <item>Skal International (India)</item>
+        <item>Uttaranchal State Organic Certification Agency</item>
+        <item>Ecocert SA -India Branch Office</item>
+        <item>IMO Control Private Limited</item>
+    </string-array>
+
+    <string name="RSS">RSS Details:-</string>
+    <string name="choose_crop">Choose your crop</string>
+    <string name="choose_bank">Choose a Bank</string>
+    <string name="title_activity_dbretail">DBRetail</string>
+    <string name="info">"This application is developed as a basic version of an application that aims to provide all resources possible for better farming.
+        Moreover, the application maximises the use of a audio-visual interface for illiterate farmers."</string>
+    <string name="title_activity_dbngo">DBNgo</string>
+    <string name="title_activity_dbgov">DBGov</string>
+    <string name="choose_ngo">Choose an NGO</string>
+    <string name="choose_agency">Choose an agency</string>
+    <string name="choose_gov">Choose a policy</string>
+    <string name="title_activity_dbcertification">DBCertification</string>
+    <string name="title_activity_dbrec">DBRec</string>
+    <string name="mix_tips">Mixing Tips</string>
+    <string name="mix_1">1.Fill your tank at-least half-full of water, and then begin agitation before adding products</string>
+    <string name="mix_2">2.Add soluble products</string>
+    <string name="mix_3">3.Add product types in this order:</string>
+    <string name="mix_3a">a. WP,DG,LF or DF formulations</string>
+    <string name="mix_3b">b. S or L formulations</string>
+    <string name="mix_3c">c. EC formulations</string>
+    <string name="mix_3d">d. NIS, COC or MSO</string>
+    <string name="mix_3e">e. Liquid fertilizers</string>
+    <string name="mix_4">4. Fill the tank full with water</string>
+    <string name="sound">Sound</string>
+    <string name="title_activity_approved_pest">ApprovedPest</string>
+    <string name="title_activity_bankdetail">Bankdetail</string>
+    <string name="title_activity_retaildetail">Retaildetail</string>
+    <string name="title_activity_govdetail">Govdetail</string>
+    <string name="title_activity_ngodetail">Ngodetail</string>
+    <string name="title_activity_prodetail">Prodetail</string>
+    <string name="title_activity_dbretail_city">DBRetailCity</string>
+
+</resources>

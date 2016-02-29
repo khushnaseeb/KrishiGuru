@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back4"
+    android:orientation="vertical"
+    android:overScrollMode="ifContentScrolls" >
+
+    <!-- Name Label -->
+
+    <TextView
+        android:id="@+id/name_label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:paddingBottom="10dip"
+        android:paddingTop="10dip"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+    <!-- Description Label -->
+
+    <!-- Price Label -->
+
+    <TextView
+        android:id="@+id/web_label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/policy_label"
+        android:layout_marginTop="49dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/policy_label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/name_label"
+        android:layout_marginTop="48dp"
+        />
+
+</RelativeLayout>

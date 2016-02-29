@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.krishi2"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="8" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" >
+    </uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.krishi2.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.krishi2.About"
+            android:label="@string/title_activity_about"
+            android:parentActivityName="com.example.krishi2.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.krishi2.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.krishi2.Weather"
+            android:label="@string/title_activity_weather"
+            android:parentActivityName="com.example.krishi2.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.krishi2.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.krishi2.Finance"
+            android:label="@string/title_activity_finance"
+            android:parentActivityName="com.example.krishi2.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.krishi2.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.krishi2.Utility"
+            android:label="@string/title_activity_utility"
+            android:parentActivityName="com.example.krishi2.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.krishi2.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.krishi2.Tech"
+            android:label="@string/title_activity_tech"
+            android:parentActivityName="com.example.krishi2.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.krishi2.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.krishi2.Jansabha"
+            android:label="@string/title_activity_jansabha"
+            android:parentActivityName="com.example.krishi2.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.krishi2.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.krishi2.Organic"
+            android:label="@string/title_activity_organic"
+            android:parentActivityName="com.example.krishi2.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.krishi2.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.krishi2.IntroVideo"
+            android:label="@string/title_activity_intro_video"
+            android:parentActivityName="com.example.krishi2.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.krishi2.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.krishi2.WeeklyForecast"
+            android:label="@string/title_activity_weekly_forecast"
+            android:parentActivityName="com.example.krishi2.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.krishi2.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.krishi2.Tips"
+            android:label="@string/title_activity_tips"
+            android:parentActivityName="com.example.krishi2.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.krishi2.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.krishi2.Mix"
+            android:label="@string/title_activity_mix"
+            android:parentActivityName="com.example.krishi2.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.krishi2.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.krishi2.Banned"
+            android:label="@string/title_activity_banned"
+            android:parentActivityName="com.example.krishi2.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.krishi2.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.krishi2.Approved"
+            android:label="@string/title_activity_approved"
+            android:parentActivityName="com.example.krishi2.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.krishi2.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.krishi2.AndroidRssReader"
+            android:label="AndroidRssReader"
+            android:parentActivityName="com.example.krishi2.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.krishi2.MainActivity" />
+        </activity>
+        <activity android:name="com.example.krishi2.ShowDetails" >
+        </activity>
+        <activity
+            android:name="com.example.krishi2.DBBank"
+            android:label="@string/title_activity_dbbank"
+            android:parentActivityName="com.example.krishi2.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.krishi2.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.krishi2.DBMsp"
+            android:label="@string/title_activity_dbmsp"
+            android:parentActivityName="com.example.krishi2.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.krishi2.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.krishi2.DBRetail"
+            android:label="@string/title_activity_dbretail"
+            android:parentActivityName="com.example.krishi2.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.krishi2.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.krishi2.DBNgo"
+            android:label="@string/title_activity_dbngo"
+            android:parentActivityName="com.example.krishi2.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.krishi2.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.krishi2.DBGov"
+            android:label="@string/title_activity_dbgov"
+            android:parentActivityName="com.example.krishi2.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.krishi2.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.krishi2.DBCertification"
+            android:label="@string/title_activity_dbcertification"
+            android:parentActivityName="com.example.krishi2.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.krishi2.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.krishi2.DBRec"
+            android:label="@string/title_activity_dbrec"
+            android:parentActivityName="com.example.krishi2.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.krishi2.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.krishi2.ApprovedPest"
+            android:label="@string/title_activity_approved_pest"
+            android:parentActivityName="com.example.krishi2.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.krishi2.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.krishi2.certdetail"
+            android:label="Certification Centre Details"
+            android:parentActivityName="com.example.krishi2.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.krishi2.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.krishi2.Bankdetail"
+            android:label="@string/title_activity_bankdetail" >
+        </activity>
+        <activity
+            android:name="com.example.krishi2.Retaildetail"
+            android:label="@string/title_activity_retaildetail" >
+        </activity>
+        <activity
+            android:name="com.example.krishi2.Govdetail"
+            android:label="@string/title_activity_govdetail" >
+        </activity>
+        <activity
+            android:name="com.example.krishi2.Ngodetail"
+            android:label="@string/title_activity_ngodetail" >
+        </activity>
+        <activity
+            android:name="com.example.krishi2.Prodetail"
+            android:label="@string/title_activity_prodetail" >
+        </activity>
+        <activity
+            android:name="com.example.krishi2.DBRetailCity"
+            android:label="@string/title_activity_dbretail_city"
+            android:parentActivityName="com.example.krishi2.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.krishi2.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>
